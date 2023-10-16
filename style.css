@@ -1,0 +1,296 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #030203;
+}
+
+h1 {
+  text-align: center;
+  color: #f0f000;
+  text-decoration: overline;
+  text-decoration-color: black;
+  text-shadow: 2px 2px red;
+}
+
+#des {
+  text-align: center;
+  text-shadow: 2px 2px grey;
+  color:white;
+}
+
+h4 {
+  text-align: center;
+  color:white
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+#username {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.username_ {
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+#password {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+#chatl {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+#chatl1 {
+  width: 10%;
+  height: 10%;
+  float: right;
+  transform: scaleX(-1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #570505;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: black;
+}
+
+#chatg1 {
+  width: 40%;
+  height: 40%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg2 {
+  width: 40%;
+  height: 40%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg3 {
+  width: 20%;
+  height: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg4 {
+  width: 40%;
+  height: 40%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg5 {
+  width: 40%;
+  height: 40%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg6 {
+  width: 20%;
+  height: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+#chatg1:active {
+  width: 40%;
+  height: 40%;
+  float: left;
+  transform: translateY(50px);
+}
+
+#chatg2:active {
+  width: 40%;
+  height: 40%;
+  float: left;
+  transform: translateY(50px);
+}
+
+#chatg3:active {
+  width: 20%;
+  height: 20%;
+  float: left;
+  transform: translateY(50px);
+}
+
+#chatg4:active {
+  width: 40%;
+  height: 40%;
+  float: left;
+  transform: translateY(50px);
+}
+
+#chatg5:active {
+  width: 40%;
+  height: 40%;
+  float: left;
+  transform: translateY(-100px);
+}
+
+#chatg6:active {
+  width: 20%;
+  height: 20%;
+  float: left;
+  transform: translateY(50px);
+}
+
+button {
+  display: block;
+  padding: 10px 50px;
+  margin: auto;
+  background-color: green;
+}
+
+
+#chatih {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  cursor: pointer;
+  transition: .7s;
+}
+
+#chatih:hover {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  transform: translateY(-25px);
+}
+
+#chatih:active {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  transform: translateY(-45px);
+}
+
+#Sign-up {
+  display: block;
+  margin: auto;
+  padding: 10px 40px;
+  background-color: white;
+  border: double;
+  border-radius: 25px;
+  border-color: skyblue;
+  cursor: pointer;
+}
+
+#signupa {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#Sign-up:active {
+  background-color: white;
+  box-shadow: 0 5px grey;
+  transform: translateY(2px);
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.contact{
+  display:block;
+  font-size: 35px;
+  color:white;
+  text-align: center;
+  margin-top: 35px;
+}
+
+#goback {
+ display: block;
+ background-color:white;
+ float:left;
+ margin-top: 0px;
+}
+
+.name {
+  display:block;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin-top: 35px;
+  margin: auto;
+}
+
+.other {
+  display:block;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin-top: 35px;
+  margin: auto;
+}
+
+p {
+  display:block;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin-top: 35px;
+  margin: auto;
+}
+
+.paysborn {
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.others {
+  text-align:center;
+  color:white;
+}
