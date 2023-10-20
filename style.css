@@ -294,3 +294,21 @@ p {
   text-align:center;
   color:white;
 }
+
+#submitsi {
+  display: block;
+  padding: 10px 50px;
+  margin: auto;
+  margin-top:35px;
+  background-color: green;
+}
+
+#welcomech {
+  display:block;
+  margin:auto;
+  margin-top: 35px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+}
+/*J'aime les chats*/
