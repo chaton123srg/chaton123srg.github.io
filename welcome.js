@@ -1,1 +1,1 @@
-Document.getElementById("welomech").innerHTML = "Welcome," + LocalStorage("FNAME") +"!";
+Document.getElementById("welomech").innerHTML = "Welcome," + getId("FNAME") +"!";
