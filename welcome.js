@@ -1,0 +1,1 @@
+Document.getElementById("welomech").innerHTML = "Welcome," + LocalStorage("FNAME") +"!";
